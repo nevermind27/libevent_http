@@ -14,7 +14,7 @@
 #include <event2/http.h>
 #include <event2/keyvalq_struct.h>
 
-static const int TIMEOUT = 30;
+static const int TIMEOUT = 20;
 
 struct RequestData {
     const char* url;
